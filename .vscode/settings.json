@@ -1,4 +1,5 @@
 {
+    "javascript.suggestionActions.enabled": false,
     "terminal.integrated.automationProfile.osx": {
         "path": "/bin/zsh"
     }

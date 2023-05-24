@@ -36,5 +36,9 @@ app.listen(port, async () => {
     const dateTime = await dateService.utc()
     console.log(`Server time : ${dateTime}`)
 
+    if (process.env.PROFILE == 'dev') {
+        console.log(`Starting development server at http://127.0.0.1:${port}`)
+    }
+    
     // startInterval()
 })
